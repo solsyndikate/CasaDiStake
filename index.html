@@ -30,8 +30,12 @@
         <div class="cta-desc">Your SOL works. <br>We handle the rest.</div>
       </div>
       <div>
-        <button class="cta-btn" onclick="toggleEmail()">Contact Us</button>
+        <a href="#" class="cta-btn" onclick="toggleEmail()">Contact Us</a>
         <div class="cta-desc">We take care of things... discretely.</div>
+        <div id="emailPopup" class="email-popup" style="display: none;">
+          <span id="emailText">casadistake.crew@yahoo.com</span>
+          <button class="copy-email" onclick="copyEmail()">Copy</button>
+        </div>
         <div id="emailPopup" class="email-popup" style="display: none;">
           <span id="emailText">casadistake.crew@yahoo.com</span>
             <button class="copy-email" onclick="copyEmail()">Copy</button>
